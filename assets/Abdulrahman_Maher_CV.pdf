@@ -1,0 +1,87 @@
+Abdelrahman Maher
+Odoo Developer
++201153854660
+Fully Exempted
+Abdulrahman Maher
+Cairo,Egypt (Wiling to Relocate)
+Abdulrahman Maher
+Abdulrahman Maher
+Profile
+Odoo Developer with hands-on experience in building and customizing Odoo modules
+across multiple versions (v15–v19). Strong background in Python, XML, PostgreSQL,
+and OWL, with experience in security rules, workflows, reports, and performance
+debugging. Comfortable working on real business applications and adapting
+existing modules to meet complex requirements.
+professional Experience
+Odoo Developer, Quick Services
+• Developed and customized Odoo modules using Python, XML, and
+PostgreSQL
+• Implemented access rights, record rules, and custom security groups
+2025 May – 2026 Aug
+Remotely
+• Customized business workflows (state transitions, approvals, validations)
+• Built custom reports (PDF / XLSX)
+• Debugged OWL and frontend issues in custom views
+• Worked with mail.thread, activities, and chatter customization
+Technical support engineer, WE
+Assist customers by solving their technical problems
+2024 Jul – Present
+Education
+Bachelor of Bioinformatics,faculty of computers and information Science,
+Assiut university
+gpa 3.18
+2018 Sep – 2022 Jul
+Assiut, Egypt
+Internships
+• Intensive Code Camp – Information Technology Institute (ITI) 4 Months program
+1 / 2
+
+Technical Skills
+Backend
+• Python
+• Odoo Framework
+• PostgreSQL
+Databases
+• PostgreSQL
+• Oracle
+Server Side
+Odoo Sh
+Git & Github
+Frontend
+• XML
+• JavaScript (OWL)
+• HTML, CSS
+Other
+• Access Rights & Record Rules
+• Reports (PDF / XLSX)
+• Odoo Security & Workflows
+Sample Projects
+Real Estate Management System , V17,18,19
+• Custom property management system
+• Implemented workflows (draft, pending, sold, closed)
+• Record rules and user-based access control
+• Automated history tracking and notifications
+•Customized and well documented API endpoints to control the CRUD operations of the units
+• Custom reports and dashboards
+•Integration with CRM to covert pending units into leads
+• OWL-based custom list and form views
+To Do App , V17,18
+•A system for tracking the duties imposed on employees, which enables managers to have complete
+control over the selection of employees and monitor their progress.
+Overtime Management System , V17
+•Tracks employee weekly hours (Sun–Thu, Standard 40 h/week).
+•Every Friday a cron job evaluates the previous work week for every active employee:
+Scenario Action
+•Hours < 40 Creates a warning record + Real email employee & all managers
+•Hours = 40 No action
+•Hours > 40 Creates an overtime record + Real email for managers with a deep link
+•Managers can Approve or Reject each overtime record.
+•Approved overtime wages accumulate on employee total salary and flow into payroll via the Overtime
+salary rule.
+Soft Skills
+Team Player
+Attention to Details
+Problem Solver
+References
+Available upon request
+2 / 2

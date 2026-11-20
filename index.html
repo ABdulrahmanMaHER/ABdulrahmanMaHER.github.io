@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdulrahman Maher | Odoo Developer</title>
+<meta name="description" content="Odoo developer building custom modules, workflows, reports and OWL views across Odoo 15 to 19.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23714B67'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>AM</text></svg>">
+<style>
+:root{--bg:#F4F1F3;--surface:#fff;--text:#1F1A1E;--muted:#5E5560;--border:#E2DCE0;--primary:#714B67;--on-primary:#fff;--link:#714B67;--accent:#017E84;--accent-soft:#E3F2F2;--primary-soft:#F1E8EE;--shadow:0 1px 2px rgba(31,26,30,.08),0 4px 14px rgba(31,26,30,.05)}
+:root[data-theme=dark]{--bg:#1B171A;--surface:#262125;--text:#F1EDF0;--muted:#B5AAB2;--border:#3A333A;--link:#D9B3CD;--accent:#4CCBD1;--accent-soft:#17383A;--primary-soft:#3A2B36;--shadow:none}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--text);font:1.0625rem/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:5;background:#714B67;color:#fff}
+nav .wrap{display:flex;align-items:center;gap:6px;height:56px}
+nav .brand{font-weight:700;color:#fff;text-decoration:none;margin-right:auto;font-size:1.1rem}
+nav a.l{color:#fff;text-decoration:none;padding:6px 10px;border-radius:6px;font-size:.95rem}
+nav a.l:hover{background:rgba(255,255,255,.16)}
+#theme{background:rgba(255,255,255,.16);border:0;color:#fff;border-radius:6px;padding:6px 10px;cursor:pointer;font:inherit;font-size:.95rem}
+@media(max-width:760px){nav a.l{display:none}}
+.hero{display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center;padding:64px 0 40px}
+.hero img{width:176px;height:176px;border-radius:50%;object-fit:cover;border:4px solid var(--surface);box-shadow:0 0 0 3px var(--primary)}
+.kicker{color:var(--accent);font-weight:600;font-size:1rem;margin:0 0 12px}
+h1{font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.1;margin:0 0 16px}
+.hero p.lead{max-width:60ch;color:var(--muted);margin:0 0 24px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:10px 20px;border-radius:6px;font-weight:600;text-decoration:none;border:1px solid var(--primary);background:var(--primary);color:var(--on-primary)}
+.btn.alt{background:transparent;color:var(--link);border-color:var(--link)}
+.btn:hover{filter:brightness(1.12)}
+@media(max-width:640px){.hero{grid-template-columns:1fr;text-align:center;justify-items:center}.btns{justify-content:center}}
+section{padding:40px 0}
+h2{font-size:1.6rem;margin:0 0 6px}h2+.sub{color:var(--muted);margin:0 0 24px}
+.crumb{display:flex;gap:8px;color:var(--muted);font-size:.95rem;margin-bottom:8px}
+.crumb b{color:var(--link)}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:8px;box-shadow:var(--shadow);padding:24px}
+.feature{border-left:6px solid var(--primary)}
+.tag{display:inline-block;font-size:.85rem;font-weight:600;padding:2px 10px;border-radius:999px;background:var(--primary-soft);color:var(--link);margin:0 6px 6px 0}
+.tag.t{background:var(--accent-soft);color:var(--accent)}
+.card h3{margin:4px 0 8px;font-size:1.3rem}
+.card ul{margin:10px 0 0;padding-left:20px}.card li{margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:20px}
+.apps{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px}
+.app{text-align:center;padding:18px 10px}
+.ico{width:56px;height:56px;border-radius:14px;margin:0 auto 10px;display:grid;place-items:center;color:#fff;font-weight:700;font-size:1.05rem;background:var(--primary)}
+.app:nth-child(even) .ico{background:#017E84}
+.app strong{display:block}.app span{color:var(--muted);font-size:.9rem}
+.tl{display:grid;gap:16px}
+.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.when{color:var(--muted);font-size:.95rem}
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.contact a{display:block;text-decoration:none;color:var(--text)}
+.contact small{display:block;color:var(--muted)}
+footer{padding:32px 0 48px;color:var(--muted);font-size:.95rem;text-align:center}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a class="brand" href="#top">Abdulrahman Maher</a>
+<a class="l" href="#projects">Projects</a><a class="l" href="#skills">Skills</a><a class="l" href="#experience">Experience</a><a class="l" href="#contact">Contact</a>
+<button id="theme" type="button" aria-label="Toggle light and dark theme">Theme</button>
+</div></nav>
+
+<main id="top" class="wrap">
+<header class="hero">
+<img src="assets/avatar.jpg" alt="Portrait of Abdulrahman Maher" width="176" height="176">
+<div>
+<p class="kicker">Odoo Developer</p>
+<h1>Abdulrahman Maher</h1>
+<p class="lead">I build and customize Odoo modules across versions 15 to 19 using Python, XML, PostgreSQL and OWL. My work covers security rules, workflows, reports and performance debugging, and I adapt existing modules to complex business requirements.</p>
+<div class="btns">
+<a class="btn" href="#projects">See my apps</a>
+<a class="btn alt" href="assets/Abdulrahman_Maher_CV.pdf" download>Download CV</a>
+<a class="btn alt" href="#contact">Contact</a>
+</div>
+</div>
+</header>
+
+<section id="projects">
+<div class="crumb"><b>Apps</b><span>/</span><span>Projects</span></div>
+<h2>Projects</h2>
+<p class="sub">Each one is an Odoo module built around a real business process.</p>
+
+<article class="card feature">
+<span class="tag">Odoo 17 &amp; 18</span><span class="tag t">Published on Odoo Apps</span>
+<h3>Overtime Management</h3>
+<p>Tracks employee weekly hours (Sunday to Thursday, standard 40 h/week) and checks every active employee each Friday with a scheduled job.</p>
+<ul>
+<li>Under 40 hours: creates a warning record and emails the employee and all managers.</li>
+<li>Exactly 40 hours: no action.</li>
+<li>Over 40 hours: creates an overtime record and emails managers a deep link to it.</li>
+<li>Managers approve or reject each record. Approved overtime wages accumulate on the employee's total salary and flow into payroll through the Overtime salary rule.</li>
+</ul>
+<div class="btns" style="margin-top:18px"><a class="btn" href="https://apps.odoo.com/apps/browse?search=Overtime+Management" target="_blank" rel="noopener">View on Odoo Apps</a></div>
+</article>
+
+<div class="grid">
+<article class="card">
+<span class="tag">Odoo 17, 18, 19</span>
+<h3>Real Estate Management System</h3>
+<ul>
+<li>Custom property management with draft, pending, sold and closed workflows.</li>
+<li>Record rules and user-based access control.</li>
+<li>Automated history tracking and notifications.</li>
+<li>Documented API endpoints for CRUD operations on units.</li>
+<li>CRM integration that converts pending units into leads.</li>
+<li>Custom reports, dashboards, and OWL-based list and form views.</li>
+</ul>
+</article>
+<article class="card">
+<span class="tag">Odoo 17 &amp; 18</span>
+<h3>To-Do App</h3>
+<p>A system for tracking the duties assigned to employees. Managers choose who gets each task and monitor progress with full control.</p>
+</article>
+</div>
+</section>
+
+<section id="skills">
+<div class="crumb"><b>Apps</b><span>/</span><span>Skills</span></div>
+<h2>Skills</h2>
+<p class="sub">The tools I use day to day.</p>
+<div class="apps">
+<div class="card app"><div class="ico">Py</div><strong>Python</strong><span>Odoo framework</span></div>
+<div class="card app"><div class="ico">DB</div><strong>PostgreSQL</strong><span>and Oracle</span></div>
+<div class="card app"><div class="ico">XML</div><strong>XML views</strong><span>HTML, CSS</span></div>
+<div class="card app"><div class="ico">JS</div><strong>OWL</strong><span>JavaScript</span></div>
+<div class="card app"><div class="ico">Sec</div><strong>Security</strong><span>Access rights, record rules</span></div>
+<div class="card app"><div class="ico">Rpt</div><strong>Reports</strong><span>PDF and XLSX</span></div>
+<div class="card app"><div class="ico">Wf</div><strong>Workflows</strong><span>States, approvals</span></div>
+<div class="card app"><div class="ico">Git</div><strong>Git &amp; GitHub</strong><span>Odoo.sh</span></div>
+</div>
+<p style="margin-top:20px"><span class="tag t">Team player</span><span class="tag t">Attention to detail</span><span class="tag t">Problem solver</span></p>
+</section>
+
+<section id="experience">
+<div class="crumb"><b>Apps</b><span>/</span><span>Experience</span></div>
+<h2>Experience and education</h2>
+<p class="sub">&nbsp;</p>
+<div class="tl">
+<article class="card">
+<div class="row"><h3>Odoo Developer, Quick Services</h3><span class="when">May 2025 to Aug 2026 · Remote</span></div>
+<ul>
+<li>Developed and customized Odoo modules using Python, XML and PostgreSQL.</li>
+<li>Implemented access rights, record rules and custom security groups.</li>
+<li>Customized business workflows: state transitions, approvals and validations.</li>
+<li>Built custom PDF and XLSX reports.</li>
+<li>Debugged OWL and frontend issues in custom views.</li>
+<li>Worked with mail.thread, activities and chatter customization.</li>
+</ul>
+</article>
+<article class="card">
+<div class="row"><h3>Technical Support Engineer, WE</h3><span class="when">Jul 2024 to present</span></div>
+<p>Helps customers solve their technical problems.</p>
+</article>
+<article class="card">
+<div class="row"><h3>Bachelor of Bioinformatics</h3><span class="when">Sep 2018 to Jul 2022 · Assiut, Egypt</span></div>
+<p>Faculty of Computers and Information Science, Assiut University. GPA 3.18.</p>
+<p>Internship: Intensive Code Camp, Information Technology Institute (ITI), a 4-month program.</p>
+</article>
+</div>
+</section>
+
+<section id="contact">
+<div class="crumb"><b>Apps</b><span>/</span><span>Contact</span></div>
+<h2>Contact</h2>
+<p class="sub">Based in Cairo, Egypt, and willing to relocate. Military service: fully exempted.</p>
+<div class="contact">
+<a class="card" href="mailto:maherabdo261@gmail.com"><small>Email</small>maherabdo261@gmail.com</a>
+<a class="card" href="tel:+201153854660"><small>Phone</small>+20 115 385 4660</a>
+<a class="card" href="https://www.linkedin.com/in/abdulrahman-maher-73b91721b/" target="_blank" rel="noopener"><small>LinkedIn</small>abdulrahman-maher</a>
+<a class="card" href="https://github.com/ABdulrahmanMaHER" target="_blank" rel="noopener"><small>GitHub</small>ABdulrahmanMaHER</a>
+</div>
+</section>
+</main>
+<footer>© Abdulrahman Maher</footer>
+
+<script>
+(function(){var r=document.documentElement,k="theme",s=null;
+try{s=localStorage.getItem(k)}catch(e){}
+if(!s)s=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";
+r.setAttribute("data-theme",s);
+var b=document.getElementById("theme");
+function label(){b.textContent=r.getAttribute("data-theme")==="dark"?"Light mode":"Dark mode"}
+label();
+b.addEventListener("click",function(){var n=r.getAttribute("data-theme")==="dark"?"light":"dark";r.setAttribute("data-theme",n);try{localStorage.setItem(k,n)}catch(e){}label()});
+})();
+</script>
+</body>
+</html>
